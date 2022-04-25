@@ -1,5 +1,4 @@
-import "CoreLibs/graphics"
-import "CoreLibs/math"
+--3d monster maze
 
 pda = import "pda"
 
@@ -12,8 +11,15 @@ loc:load('localization.json')
 
 
 if pda.platform == 'playdate' then
+	import "CoreLibs/graphics"
+	import "CoreLibs/math"
+
 	playdate.display.setRefreshRate(0)
+	
 end
+
+mainfont = pda:newFont('dos')
+pda:setFont(mainfont)
 
 --0 = lua
 --1 = image
@@ -68,8 +74,10 @@ function loadassets(tb,cpath)
 end
 
 states = {
-	boot = import 'states/boot'
+	boot = import 'states/boot',
+	game = import 'states/game'
 }
+
 gfx = loadassets(gfxtoload,{'gfx'})
 audio = loadassets(audiotoload,{'audio'})
 
