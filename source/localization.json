@@ -1,0 +1,15 @@
+{
+  
+  "helloworld": {
+    "en": "Hello World!",
+    "fr": "Bonjour Monde!"
+  },
+  "****************BOOT*******************":{},
+  "boot1": {
+    "en": "ANYONE THERE?"
+  },
+  "boot2": {
+    "en": "WELL PRESS SOMETHING THEN."
+  }
+  
+}

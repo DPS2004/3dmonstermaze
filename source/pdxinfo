@@ -1,0 +1,7 @@
+name=3D Monster Maze
+author=DPS2004
+description=A reimagining of the first Survival Horror Game
+bundleID=com.dps2004.monstermaze
+version=1.0
+buildNumber=123
+imagePath=launcher/
